@@ -5,7 +5,13 @@
 a{
     text-decoration: none;
 }
+.show-menu{
+    display: none;
 
+    @include md{
+     display: block;
+    }
+}
 #main-nav{
     background-color: var(--blueDark);
     padding: 16px;
